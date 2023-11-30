@@ -1,0 +1,13 @@
+{
+    "name" : "WATCHit",
+    "version" : "1.0",
+    "manifest_version" : 2,
+    "Description" :  "An simple extension capable of showing you on-field score in just one click",
+    "browser_action" : {
+        "default_popup": "popup.html",
+        "default_icon":{
+            "128" : "icon128.png"
+        }},
+        "permissions" : ["activeTab"]
+
+}
